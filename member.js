@@ -1,4 +1,4 @@
-function skillsmember() {
+function skillsMember() {
     var skills = document.getElementById("skills").value;
     var skills = skills.split(",");
     var skills = skills.map(function (skill) {
